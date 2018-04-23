@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp">
+      <Version>4.4.1</Version>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>11.0.2</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.280555" />
     <PackageReference Include="Xamarin.Android.Support.Design" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="25.4.0.2" />
@@ -80,6 +86,10 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\b2-aplication-mobile\b2-aplication-mobile.csproj">
+      <Project>{bdc1b259-cb41-4c5e-804c-d162af3a062d}</Project>
+      <Name>b2-aplication-mobile</Name>
+    </ProjectReference>
     <ProjectReference Include="..\b2_aplication_mobile\b2_aplication_mobile.csproj">
       <Project>{1FB3B38E-A1DB-4596-965D-BF1DFD478B69}</Project>
       <Name>b2_aplication_mobile</Name>
